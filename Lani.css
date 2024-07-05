@@ -1,0 +1,64 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+    --textcolor: green;
+}
+
+/* khai báo biến dùng lớp giả root  */
+
+
+/* gọi id thì dùng dấu # */
+/* gọi class là chấm */
+
+.header {
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    border-width: 10 px;
+    border-style: solid;
+    background-image: url(asset/img/slider-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.nav li {
+    display: inline-block;
+
+}
+
+.nav li a {
+    color: #fff;
+
+
+    text-decoration: none;
+    /* bỏ gạch chân với chỉnh màu trắng */
+    line-height: 60px;
+    padding: 0 14px;
+    /* trên dưới là 14px, trái phải là 14px */
+}
+
+.nav li:hover {
+    color: #fff;
+    background-color: green;
+}
+
+.nav .subnav {
+    display: none;
+}
+
+.slider {
+    width: 100%;
+    height: 200px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+}
